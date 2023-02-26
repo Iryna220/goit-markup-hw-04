@@ -281,13 +281,35 @@ img {
 }
 .employee-text {
   padding-top: 8px;
-  padding-bottom: 32px;
+  margin-bottom: 8px;
   text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--brand-color);
+  margin-bottom: 32px;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-kolor);
+}
+.social-list-icon {
+  fill: #f4f4fd;
 }
 .color-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
@@ -348,6 +370,38 @@ img {
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
+.footer-social-titel {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--background-origin);
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  fill: #f4f4fd;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link:hover {
+  background-color: #31d0aa;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
 .gallery-content {
   padding-top: 96px;
   padding-bottom: 120px;
