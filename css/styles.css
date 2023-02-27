@@ -357,7 +357,10 @@ img {
 .customers-item:focus {
   fill: var(--accent-kolor);
 }
-.logo-item {
+
+.footer-page .container {
+  display: flex;
+  align-items: baseline;
 }
 .footer-page {
   padding-top: 100px;
@@ -372,6 +375,9 @@ img {
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
+.footer-social {
+  margin-left: 120px;
+}
 .footer-social-titel {
   font-weight: 500;
   font-size: 16px;
@@ -381,7 +387,7 @@ img {
 }
 .footer-social-titel {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   /* align-items: center; */
   margin-bottom: 16px;
 }
