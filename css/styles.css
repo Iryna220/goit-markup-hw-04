@@ -176,6 +176,8 @@ img {
     ),
     url("../images/herobg.jpg");
   background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
   padding-top: 188px;
   padding-bottom: 188px;
   outline: 1px solid black;
@@ -271,7 +273,6 @@ img {
   gap: 24px;
 }
 .employee-name {
-  padding-top: 32px;
   text-align: center;
   font-weight: 500;
   font-size: 20px;
@@ -289,6 +290,10 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
+.employee-card-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .social-list {
   display: flex;
   justify-content: center;
@@ -302,7 +307,6 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: var(--brand-color);
-  margin-bottom: 32px;
 }
 .social-list-link:hover,
 .social-list-link:focus {
@@ -338,7 +342,7 @@ img {
 }
 .customers-link {
   padding: 16px 32px;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   width: 168px;
@@ -349,6 +353,16 @@ img {
 .customers-link:hover,
 .customers-link:focus {
   border: 1px solid var(--accent-kolor);
+}
+.customers-item {
+  /* display: block; */
+}
+.test {
+  display: block;
+}
+.test:hover,
+.test:focus {
+  fill: var(--accent-kolor);
 }
 .customers-item {
   fill: #8e8f99;
